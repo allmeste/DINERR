@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ресторан DINERR</title>
+	<!-- Responsive starts here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/reserve.css">
+
+
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/логотип для сайта.png" title="logo_header" class="logo">
+				<nav class="header_menu">
+					<ul class="menu">
+						<li>
+							<a  href="index.html">
+								Главная
+							</a>
+						</li>
+						<li>
+							<a  href="about.html">
+								О нас
+							</a>
+						</li>
+						<li>
+							<a  href="menu.html">
+								Меню
+							</a>
+						</li>
+						<li>
+							<a  href="reserv.html">
+								Бронирование
+							</a>
+						</li>
+						<li>
+							<a  href="contacts.html">
+							Контакты
+							</a>
+						</li>
+					</ul>
+				</nav>
+					<a href="tel:+375336558125" class="tel">
+						+375 33 65-58-125
+					</a>
+					<div class="header_burger">
+						<span></span>
+					</div>
+			</div>
+			<div class="background" >
+				<h1 class="title">Онлайн брoнирование</h1>
+				<form name="form">
+					<div class="input_container">
+					<div class="first_column">
+						<div name="data_container" class="data_container">
+					<img class="callendar" title="callender_icon" src="img/callendar.png">	
+					<input class="form" required type= "date"  >
+					</div>
+					
+							<div class="time_container">
+								<img class="callendar" title="clock_icon" src="img/clock.png">	
+								<input class="form" required type="time"  >
+							
+						</div>
+				
+							<div class="guest_container">
+								<img class="callendar" title="person_icon" src="img/people.png">	
+								<input class="form" required type="text" name="cron" placeholder="Количество человек" >
+							</div>
+					
+						<div>
+							<input class="submit" id="submit" type="submit" onclick="openmodal()">
+						</div>
+						
+					</div>
+						<div class="second_column">
+							<div class="tel_cont">
+							<input  id="telefon" class="telefon" required type="tel" placeholder="Телефон" >
+							</div>
+					
+							
+								<div class="fio_cont">
+									<input name="fio" class="fio" required type="text" placeholder="Имя" >
+								</div>
+								<div class="description">
+								<p class="res"> <b>Бронирование по телефону</b> <br><br>
+
+									Чтобы забронировать стол, позвоните нам по телефону<br>
+									 +375 33 45 65 878<br>
+									 с 10 утра до 6 вечера<br>
+								     с понедельника по пятницу.</p>	
+							</div>
+							</div>
+						</div>
+				
+				</form>
+			
+		
+		
+		<script src="js/reserve.js"></script>
+	</header>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<p id="sched">РЕЖИМ РАБОТЫ</p>
+			<p>
+			  Самовывоз: 13:00-22:30<br>
+			  Ресторан:<br>
+			  Вс - Чт 13:00-00:00<br>
+			  Пт - Сб 13:00-01:00<br>
+			</p> 
+		<!-- </div> -->
+		
+		   <p id="adr">АДРЕС</p>
+		  <p id="adr1">
+			  Некрасова 28, Минск <br>
+			  +375 29 135 98 35<br>
+			  dinerr_rest@gmail.com
+		  </p>
+		<p id="follow">
+			ПОДПИСЫВАЙТЕСЬ
+		</p>		
+		<div class="icon_container"	>	
+			<a href="https://www.instagram.com/"><img class="inst_icon" title="inst_icon" src="img/inst_icon.png"></a>
+			<a href="https://twitter.com/">	 <img class="twit_icon" title="twit_icon"  src="img/twitter.png"></a>
+				<a href="https://vk.com/">	 <img class="vk_icon" title="vk_icon" src="img/vk.png"></a>
+			 </div>
+			<!-- <div class="arrow_cont"> -->
+			<a class="rect12" href="#" ><img class="rect12" title="green_part" src="img/rect1.png"></a>	 
+			
+			
+			
+			
+			<div class="line1"></div>
+			<div class="arrow1"> 
+				<span></span>
+				<span></span>
+			 </div>
+			 <p id="information"></p> 
+		</div>
+	</footer> 
+	<script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+	<script src="js/main.js"></script> 
+</body>
+</html>

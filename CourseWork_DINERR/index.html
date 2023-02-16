@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ресторан DINERR</title>
+	<!-- Responsive starts here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/логотип для сайта.png" title="logo_header" class="logo">
+				<nav class="header_menu">
+				<ul class="menu">
+					<li>
+						<a  href="index.html">
+							Главная
+						</a>
+					</li>
+					<li>
+						<a  href="about.html">
+							О нас
+						</a>
+					</li>
+					<li>
+						<a  href="menu.html">
+							Меню
+						</a>
+					</li>
+					<li>
+						<a  href="reserv.html">
+							Бронирование
+						</a>
+					</li>
+					<li>
+						<a  href="contacts.html">
+						Контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+				<a href="tel:+375336558125" class="tel">
+					+375 33 65-58-125
+				</a>
+				<div class="header_burger">
+					<span></span>
+				</div>
+			</div>
+			<div class="offer">
+				<p class="welcome">Welcome to</p>
+				<h1>
+					din<br>err
+				</h1>
+				<!-- <a href="#" class="btn">Book the tickets</a> -->
+			</div>
+			<a  href="#"  id="rect1"  ><img  class="rect1" title="green_part" src="img/rect1.png">
+			</a>
+			<p class="line"></p>
+			<p class="arrow">
+				<span></span>
+				<span></span>
+			 </p>
+		</div>
+		
+
+	
+	
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="secSlide">
+		<div class="container" >  
+			<p class="textmenu">МЕНЮ</p>
+			  <p class="maintext1">Сочетание редких и красивых ингредиентов,
+				   где текстура, вкус и гармония имеют
+				   первостепенное значение. Погрузитесь
+				   в атмосферу ресторанов на набережной уютного городка
+				   где-то в Италии.</p>
+				 
+				   <a href="menu.html" class="showmenu">Просмотреть меню</a>
+				   <hr class="hr1"></hr>
+			  <img class="gallery" title="menu_picture" src="img/secpic.jpg">
+		   </div>       
+	</section>  
+	<section class="thirdSlide">
+		<div class="block"></div>
+		<div class="block1"></div>
+	</section>
+
+	<section class="slide">
+		<div class="container">
+		
+		<p class="atmos">АТМОСФЕРА</p>
+		<p class="maintext2">Атмосфера нашего ресторана наполнена теплом и уютом, 
+			поэтому об этом месте у Вас  останутся только
+			теплые воспоминания о времени проведенном с друзьями и любимыми. </p>
+			<a href="reserv.html"  class="showtable">Забронировать стол</a>
+			<hr class="hr2"></hr>
+			<div class="slider">
+			  <div class="item">
+  
+				  <img src="img/view.png" title="first_slide">  
+			  </div>
+		  
+			  <div class="item">
+				  <img src="img/view1.png" title="second_slide">
+			  
+			  </div>
+		  
+			  <div class="item">
+				  <img src="img/view2.jpg" title="third_slide">
+				
+			  </div>
+			  <div class="item">
+				  <img src="img/view3.png" title="fourth_slide">
+				
+			  </div>
+		  
+			  <a class="prev" onclick="minusSlide()"><div><img class="left" title="left_btn" src="img/left.png"></div></a>
+			  <a class="next" onclick="plusSlide()"><div><img class="right" title="right_btn" src="img/right.png"></div></a>
+		  </div>
+		  <br>
+		  
+		  <div class="slider-dots">
+			<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+			  <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+			  <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+			  <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+		  </div>
+		</div>
+		 <script src="js/slider.js"></script>	
+		
+	</section>	 
+	<footer id="footer" class="footer">
+		<div class="container">
+			<p id="sched">РЕЖИМ РАБОТЫ</p>
+			<p>
+			  Самовывоз: 13:00-22:30<br>
+			  Ресторан:<br>
+			  Вс - Чт 13:00-00:00<br>
+			  Пт - Сб 13:00-01:00<br>
+			</p>
+		<!-- </div> -->
+		
+		  <p id="adr">АДРЕС</p>
+		  <p id="adr1">
+			  Некрасова 28, Минск <br>
+			  +375 29 135 98 35<br>
+			  dinerr_rest@gmail.com
+		  </p>
+		<p id="follow">
+			ПОДПИСЫВАЙТЕСЬ
+		</p>		
+		<div class="icon_container"	>	
+			<a href="https://www.instagram.com/"><img class="inst_icon" title="inst_icon" src="img/inst_icon.png"></a>
+			<a href="https://twitter.com/">	 <img class="twit_icon" title="twit_icon"  src="img/twitter.png"></a>
+				<a href="https://vk.com/">	 <img class="vk_icon" title="vk_icon" src="img/vk.png"></a>
+			 </div>
+			<!-- <div class="arrow_cont"> -->
+			<a class="rect12" href="#" ><img class="rect12" title="green_part" src="img/rect1.png"></a>	 
+			
+			<div class="line1"></div>
+		    <div class="arrow1"> 
+			   <span></span>
+			   <span></span>
+			</div>
+			<p id="information"></p> 
+		</div>	
+	</footer>  
+	
+	
+
+	<script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

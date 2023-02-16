@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.26772in" height="11.6929in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8267.72 11692.91"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="739" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Century Gothic">
+		<font-face-src>
+			<font-face-name name="Century Gothic"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="D" horiz-adv-x="744" d="M87.0004 0l0 717.998 148.993 0c107.333,0 185.34,-8.66742 233.834,-25.8314 69.6656,-24.4956 124.171,-66.6677 163.345,-126.998 39.1587,-60.1749 58.8235,-131.829 58.8235,-215.163 0,-72.0111 -15.5019,-135.168 -46.6612,-189.845 -31.0039,-54.6607 -71.4985,-95.1553 -121.002,-121.158 -49.6591,-26.0023 -119.34,-39.0034 -208.826,-39.0034l-228.506 0zm68.9977 68.0035l82.8376 0c98.9919,0 167.493,6.16661 205.828,18.4998 53.8374,17.661 96.3358,49.162 127.169,94.8291 30.833,45.8379 46.1641,101.664 46.1641,167.663 0,69.1685 -16.6669,128.505 -50.1561,177.511 -33.3339,49.162 -80.0106,82.822 -139.673,100.996 -44.8283,13.6691 -118.672,20.5036 -221.501,20.5036l-50.6687 0 0 -580.003z"/>
+   <glyph unicode="R" horiz-adv-x="606" d="M90.9924 717.998l143.339 0c79.8397,0 134.003,-3.32407 162.336,-9.8324 42.8401,-9.66154 77.4942,-30.4913 104.164,-62.6602 26.8411,-31.998 40.1684,-71.4985 40.1684,-118.346 0,-38.9879 -9.16448,-73.3314 -27.6643,-102.829 -18.329,-29.6681 -44.673,-52.0045 -79.0009,-67.1648 -34.1726,-15.1602 -81.5017,-22.8335 -141.832,-23.1597l258.5 -334.006 -88.1654 0 -258.5 334.006 -41.3334 0 0 -334.006 -72.0111 0 0 717.998zm72.0111 -69.9918l0 -244.008 124 -0.994113c48.1679,0 83.6608,4.48904 106.665,13.6691 23.0044,9.16448 40.9916,23.6568 53.9928,43.6633 12.8458,19.991 19.3386,42.3275 19.3386,67.1648 0,23.9985 -6.4928,45.9933 -19.6648,65.6581 -13.0011,19.6803 -30.1651,33.6756 -51.5075,42.1721 -21.156,8.49656 -56.4936,12.6749 -105.826,12.6749l-126.998 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Century Gothic";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:black;stroke-width:3.94;stroke-miterlimit:22.9256}
+    .fil0 {fill:black}
+    .fil1 {fill:black;fill-rule:nonzero}
+    .fnt0 {font-weight:normal;font-size:253.46px;font-family:'Century Gothic'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2403788251392">
+   <text x="2350.87" y="2783.96"  class="fil0 fnt0">D</text>
+   <polygon class="fil1 str0" points="2651.72,2767.31 2651.72,2601.98 2654.37,2601.98 2745.27,2741.17 2745.27,2601.98 2761.19,2601.98 2762.55,2784.35 2753.25,2784.17 2668.02,2649.79 2667.69,2784.76 2662.52,2784.67 2576.59,2785.05 2576.59,2842.08 2661.76,2842.08 2661.76,2859.82 2576.59,2859.82 2576.59,2931.55 2661.76,2931.55 2661.76,2949.29 2558.35,2949.29 2558.53,2767.31 2558.53,2601.98 2577.24,2601.98 2577.24,2767.31 "/>
+   <text x="2721.17" y="2949.29"  class="fil0 fnt0">R</text>
+   <text x="2903.27" y="2949.29"  class="fil0 fnt0">R</text>
+  </g>
+ </g>
+</svg>
